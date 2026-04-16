@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- v3 -->
+<!-- v4 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Damiani Investments, LLC</title>
-  <meta name="description" content="Consulting for RIAs, brokers, and financial professionals. Coming soon.">
+  <meta name="description" content="Damiani Investments, LLC. Coming soon.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -96,31 +96,6 @@
       50%       { opacity: 0.5; transform: scale(0.8); }
     }
 
-    /* Headline */
-    h1 {
-      font-size: clamp(2.6rem, 6.5vw, 4.75rem);
-      font-weight: 800;
-      letter-spacing: -0.035em;
-      line-height: 1.04;
-      color: #111;
-      max-width: 820px;
-      margin-bottom: 1.5rem;
-    }
-
-    h1 .accent {
-      color: #4F46E5;
-    }
-
-    /* Subheadline */
-    .sub {
-      font-size: clamp(1rem, 2vw, 1.15rem);
-      font-weight: 400;
-      color: #777;
-      max-width: 460px;
-      line-height: 1.65;
-      margin-bottom: 3.5rem;
-    }
-
     /* Coming soon card */
     .coming-soon-card {
       display: inline-flex;
@@ -144,21 +119,11 @@
     footer {
       padding: 1.5rem 3rem;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       border-top: 1px solid #e8e8e6;
       font-size: 0.75rem;
       color: #bbb;
-    }
-
-    footer a {
-      color: #bbb;
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
-    footer a:hover {
-      color: #4F46E5;
     }
 
     /* ── Animation ── */
@@ -170,7 +135,7 @@
     /* ── Responsive ── */
     @media (max-width: 640px) {
       header { padding: 1.25rem 1.5rem; }
-      footer  { padding: 1.25rem 1.5rem; flex-direction: column; gap: 0.4rem; text-align: center; }
+      footer  { padding: 1.25rem 1.5rem; }
       main    { padding: 4rem 1.5rem 3rem; }
     }
   </style>
@@ -189,10 +154,6 @@
       Coming Soon
     </div>
 
-    <h1>Your RIA called.<br><span class="accent">It needed help.</span></h1>
-
-    <p class="sub">Consulting for RIAs, brokers, and financial professionals who want to move faster, think clearer, and actually get things done.</p>
-
     <div class="coming-soon-card">
       <span class="icon">👋</span>
       <span>Something good is on the way — check back soon.</span>
@@ -202,7 +163,6 @@
 
   <footer>
     <span>&copy; 2026 Damiani Investments, LLC</span>
-    <a href="mailto:nick@damiani.investments">nick@damiani.investments</a>
   </footer>
 
 </body>
